@@ -41,7 +41,7 @@ The site is best viewed on a larger desktop (about 1680x1050), but looks good on
 
 When loaded properly, the homepage should look like this:
 
-![Homepage](/public/assets/images/eatdaburger.JPG)
+![Homepage](/public/assets/images/burger2.JPG)
 
 ## Future Plans for Improvement
 * Use media queries to make the site look better on mobile.
