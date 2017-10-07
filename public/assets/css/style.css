@@ -127,5 +127,21 @@ pre {
 
 }
 
+@media screen and (max-width: 700px) { 
+
+  .form-control {
+letter-spacing: 0px;
+width:200px;
+margin-left:40px;
+
+  }
+
+  pre {
+    letter-spacing: 0px;
+  }
+
+}
+
+
 body {
   background-image: url(https://images2.pixlis.com/background-image-checkers-chequered-checkered-squares-seamless-tileable-orchid-white-ronchi-236ndg.png);
