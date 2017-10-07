@@ -2,6 +2,7 @@ body {
   width: 99%;
   height: 900px;
   background-color: #fc6;
+
 }
 
 #top-bar {
@@ -46,6 +47,10 @@ body {
   padding-bottom: 10px;
   margin: auto;
   font-size: 38px;
+/*  border-color:#f30;*/
+border-color: #d05d62;
+  border-width: 10px;
+  border-style:outset;
 }
 
 .task {
@@ -59,10 +64,68 @@ body {
 }
 
 #text-enter-button {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 18px;
+/*  color:#f30;*/
+
 }
 
 h1 {
-  color: #f30;
+  /*color: #f30;*/
+  color:white;
+  font-family: 'Modak', cursive;
+  padding:20px;
+  padding-top:5px;
+  font-size:100px;
+  letter-spacing:3px;
+  text-shadow:
+    -5px -5px 0 darkred,
+    5px -5px 0 darkred,
+    -5px 5px 0 darkred,
+    5px 5px 0 darkred;  
 }
+
+p {
+    font-family: 'Modak', cursive;
+    padding:20px;
+    /*color: #f30;*/
+    color: white;
+    font-size:30px;
+    letter-spacing: 5px;
+    text-shadow:
+    -2px -2px 0 darkred,
+    2px -2px 0 darkred,
+    -2px 2px 0 darkred,
+    2px 2px 0 darkred;  
+
+}
+
+pre {
+  background-color: white;
+  /*border-color: #f30;*/
+  border-color: #d05d62;
+  border-width: 5px;
+  /*border-style:dotted;*/
+  border-style:outset;
+  font-family: 'Permanent Marker', cursive;
+  /*color:#f30;*/
+  letter-spacing: 2px;
+
+}
+
+.form-control {
+
+  background-color: white !important;
+  /*border-color: #f30;*/
+  border-color: #d05d62;
+  border-width: 5px;
+  /*border-style:dotted;*/
+  border-style:outset;
+  font-family: 'Permanent Marker', cursive;
+  /*color:#f30 !important;*/
+  letter-spacing: 2px;
+
+}
+
+body {
+  background-image: url(https://images2.pixlis.com/background-image-checkers-chequered-checkered-squares-seamless-tileable-orchid-white-ronchi-236ndg.png);
